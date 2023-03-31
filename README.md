@@ -28,7 +28,7 @@ The ML model could be loaded to the security cameras of different societies and 
 7. Google Colaboratory
 
 ## IoT device
-
+This project utilizes custom devices and repurposes audio output from pre-existing security cameras to create a prototype security system called pupSense. The prototype incorporates a Raspberry Pi as an IoT device with a microphone to capture sounds from the surroundings. A machine learning model is deployed on the device itself and is programmed to detect specific events. When an event is detected, a signal is sent to a database.
 
 ## ML model
 Using CNN and TensorFlow, we have built the model detecting the dog bark. To make the accuracy as high as 92%, we have used [UrbanSound8k Dataset](https://urbansounddataset.weebly.com/urbansound8k.html) and built a sequential model, thus training upto 100 epochs.
