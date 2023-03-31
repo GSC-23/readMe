@@ -41,9 +41,10 @@ A few audio Properties of a wav file using [audio processing.py](https://github.
 Using the audio processing file, we can create the dataset of different animals and then train our model to make the solution versatile for all animals
 
 ## Application
+The mobile application is a sophisticated, native Android application developed exclusively using Kotlin within the Android Studio environment. As for its backend, it employs the full range of functionalities offered by the Google Firebase platform. Specifically, Firebase Authentication is utilized to provide secure email authentication, while Firebase Firestore is employed for efficient data storage. Additionally, the application seamlessly integrates the Google Maps Software Development Kit (SDK) to enable the accurate display of the location pinpointed by the Internet of Things (IoT) device. To further enhance the user experience, the Google Places API is integrated to facilitate the identification of nearby veterinary hospitals. Moreover, the Google Directions API enables the app to provide the most efficient pathway from the user's location to the incident location, while the Google Maps Static API supplies static images of the optimal route from the incident location to the nearest veterinary hospital.
 
 # Future Scope
-The solution versatility could be extended to different animals and technology, to take the audio and video input. Its use case could be further extended to variety of animals. 
+The solution's versatility could be extended to different animals and technology, to take the audio and video input. Its use case could be further extended to variety of animals. 
 
 # Conclusion
 PupSense is a valuable tool for dog owners and lovers alike. By detecting dogs in distress using ML-based technology and providing directions to the incident location, and information about nearby veterinary, PupSense can help save lives. Additionally, by creating blog posts about their experiences, users can help others learn from their experiences and potentially save more dogs in the future. The app's IoT capabilities and integration with cameras and microphones in society cameras further extend its use cases, and it can be used for other animals as well.
