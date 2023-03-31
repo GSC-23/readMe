@@ -33,9 +33,12 @@ The ML model could be loaded to the security cameras of different societies and 
 ## ML model
 Using CNN and TensorFlow, we have built the model detecting the dog bark. To make the accuracy as high as 92%, we have used [UrbanSound8k Dataset](https://urbansounddataset.weebly.com/urbansound8k.html) and built a sequential model, thus training upto 100 epochs.
 To identify the crying dog, we are working upon its dataset to get the audio properties such as MFCC properties, Mel spectrogram, Frequency plots
+A few audio Properties of a wav file using [audio processing.py](https://github.com/GSC-23/solution/blob/main/audio_processing.py)
 ![image](https://user-images.githubusercontent.com/90051748/229173239-0112f75e-37d6-4aef-a2c9-806d531db007.png)
+![image](https://user-images.githubusercontent.com/90051748/229174137-ed4d6392-380a-46ad-abd8-78ab756267f3.png)
+![image](https://user-images.githubusercontent.com/90051748/229174240-3f798687-8a29-4847-b3a4-03ce1909dbc4.png)
 
-
+Using the audio processing file, we can create the dataset of different animals and then train our model to make the solution versatile for all animals
 
 ## Application
 
