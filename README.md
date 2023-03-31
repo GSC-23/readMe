@@ -25,8 +25,19 @@ The ML model could be loaded to the security cameras of different societies and 
 4. Android studio
 5. Kotlin
 6. Google maps SDK, APIs and related libraries
+7. Google Colaboratory
 
-## hhh
+## IoT device
+
+
+## ML model
+Using CNN and TensorFlow, we have built the model detecting the dog bark. To make the accuracy as high as 92%, we have used [UrbanSound8k Dataset](https://urbansounddataset.weebly.com/urbansound8k.html) and built a sequential model, thus training upto 100 epochs.
+To identify the crying dog, we are working upon its dataset to get the audio properties such as MFCC properties, Mel spectrogram, Frequency plots
+![image](https://user-images.githubusercontent.com/90051748/229173239-0112f75e-37d6-4aef-a2c9-806d531db007.png)
+
+
+
+## Application
 
 # Future Scope
 The solution versatility could be extended to different animals and technology, to take the audio and video input. Its use case could be further extended to variety of animals. 
