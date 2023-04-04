@@ -27,6 +27,9 @@ The ML model could be loaded to the security cameras of different societies and 
 6. Google maps SDK, APIs and related libraries
 7. Google Colaboratory
 
+![Blank diagram](https://user-images.githubusercontent.com/90051748/229815604-686358d1-dbf4-4c42-8164-7d589d6105a2.svg)
+
+
 ## IoT device
 This project utilizes custom devices and repurposes audio output from pre-existing security cameras to create a prototype security system called pupSense. The prototype incorporates a Raspberry Pi as an IoT device with a microphone to capture sounds from the surroundings. A machine learning model is deployed on the device itself and is programmed to detect specific events. When an event is detected, a signal is sent to a database.
 
